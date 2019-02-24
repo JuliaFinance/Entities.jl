@@ -2,3 +2,7 @@ name = "Entities"
 uuid = "d68c5960-3734-11e9-0c07-a30dcbe4dda4"
 authors = ["Eric Forgy <Eric.Forgy@coherentasia.com>"]
 version = "0.1.0"
+
+[deps]
+Jurisdictions = "044ac1b0-3745-11e9-192d-5d2cecb87306"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"

@@ -1,13 +1,12 @@
 module Entities
 
-using Jurisdictions, GeneralLedgers
-
+using Reexport
+@reexport using Jurisdictions
 export Entity
 
-struct Entity
+struct Entity{C<:Currency}
     name::String
-    jurisdiction::Jurisdiction
-    ledger::Account
+    jurisdiction::Jurisdiction{C}
 end
 
 end # module
